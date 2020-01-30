@@ -12,15 +12,15 @@ class Binance():
 
     methods = {
             # public methods
-            'ping':             {'url':'api/v1/ping', 'method': 'GET', 'private': False},
-            'time':             {'url':'api/v1/time', 'method': 'GET', 'private': False},
-            'exchangeInfo':     {'url':'api/v1/exchangeInfo', 'method': 'GET', 'private': False},
-            'depth':            {'url': 'api/v1/depth', 'method': 'GET', 'private': False},
-            'trades':           {'url': 'api/v1/trades', 'method': 'GET', 'private': False},
-            'historicalTrades': {'url': 'api/v1/historicalTrades', 'method': 'GET', 'private': False},
-            'aggTrades':        {'url': 'api/v1/aggTrades', 'method': 'GET', 'private': False},
-            'klines':           {'url': 'api/v1/klines', 'method': 'GET', 'private': False},
-            'ticker24hr':       {'url': 'api/v1/ticker/24hr', 'method': 'GET', 'private': False},
+            'ping':             {'url':'api/v3/ping', 'method': 'GET', 'private': False},
+            'time':             {'url':'api/v3/time', 'method': 'GET', 'private': False},
+            'exchangeInfo':     {'url':'api/v3/exchangeInfo', 'method': 'GET', 'private': False},
+            'depth':            {'url': 'api/v3/depth', 'method': 'GET', 'private': False},
+            'trades':           {'url': 'api/v3/trades', 'method': 'GET', 'private': False},
+            'historicalTrades': {'url': 'api/v3/historicalTrades', 'method': 'GET', 'private': False},
+            'aggTrades':        {'url': 'api/v3/aggTrades', 'method': 'GET', 'private': False},
+            'klines':           {'url': 'api/v3/klines', 'method': 'GET', 'private': False},
+            'ticker24hr':       {'url': 'api/v3/ticker/24hr', 'method': 'GET', 'private': False},
             'tickerPrice':      {'url': 'api/v3/ticker/price', 'method': 'GET', 'private': False},
             'tickerBookTicker': {'url': 'api/v3/ticker/bookTicker', 'method': 'GET', 'private': False},
             # private methods
